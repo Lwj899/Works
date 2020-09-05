@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>  
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" id="mixia_vpid"><!--可视区域设定-->
+		<meta name="robots" content="nofollow">
+		<title>Lwj'S HOME Works</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" >
+		<link rel="stylesheet" type="text/css" href="css/in.css" >
+	</head>
+	<body id="background-image-API" class="lead">		
+		
+		<div id="bgblack" style = "padding:3%;">
+			<h1 style = "margin:10%; color:	#FFFFFF;font-family:Microsoft YaHei;"></h1>		
+		
+				<div class="yiYan" style = "margin:100px 0 100px 0" > <!--一言-->
+					<div  style="margin-right:10em; ">					
+						<h3> <p id="from"></p></h3>					
+					</div>				
+					<div  style="margin-bottom: 10pt ">
+						<h2><p id="hitokoto"></p></h2>	
+					</div>
+				
+			</div> 
+			<div><!--链接按钮-->
+				<ul>
+					<li><a class="ButtonUP" href="index-true.html"><b>简历</b></a></li>
+					<li><a class="ButtonUP" href="index-true.html"><b>作品集</b></a></li>
+				</ul>
+			</div> 
+			<div style = "padding:5%;font-size:5%"></div>						
+			<div> <!--声明-->
+				<p class="footer">Copyright © 2020 <a href="#" target="_blank">Lwj</a> All Rights Reserved.</p>
+			</div>
+		</div> 
+				
+		<div id="yiYan"><!--一言运行模块-->
+			<script id="yiyang">	 
+				<!--从“一言API”获取内容-->
+				<!-- 以下写法，选取一种即可 -->
+				<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+				<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+				<!--End-->
+					<script>
+						fetch('https://v1.hitokoto.cn?c=i&c=d')
+						.then(function (res){
+							return res.json();
+						})
+						.then(function (data) {
+							var hitokoto = document.getElementById('hitokoto');
+							hitokoto.innerText = data.hitokoto; 
+							var from = document.getElementById('from');
+							from.innerText = data.from; 	
+						})
+						.catch(function (err) {
+							console.error(err);
+						})
+				   </script>
+			</script>
+		</div>	
+	</body>
+ 
+  
+ 
+ 
+ 
+ </html>
