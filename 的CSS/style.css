@@ -1,0 +1,255 @@
+
+
+#background-image-API{
+	/*引导页背景（API随机图片背景）*/
+	/*background-image:url(https://api.berryapi.net/?service=App.Bing.Images&day=-0);*/
+	background-image:url(https://api.berryapi.net/?service=App.Bing.Images&day=-0);
+	/*-moz-background-size:50% 100%; /* 老版本的 Firefox */
+	/*background-size:150% 22000%;*/
+	}
+
+#background-image-url{
+	/*普通页面背景（固定图片）*/
+	background-image:url(http://static.hdslb.com/live-static/images/bg/6.jpg);
+	}
+
+
+
+
+body{
+	/*普通页面背景（固定图片）*/
+	background-color:#7DB9DE;
+	background-repeat:no-repeat;
+	background-color:#7DB9DE;
+	background-size: 100%;
+	overflow:-Scroll;
+	overflow-y:hidden;
+	}
+
+body.lead{
+	/*引导页背景（API随机图片背景）*/
+	background-color:#563F2E;
+	background-size:cover;
+	overflow:-Scroll;
+	overflow-y:hidden;
+	}
+	
+
+
+
+p.h2{
+	font-family:"Comic Sans",Cursive,;
+	font-style:oblique;
+	font-size:20px;
+	line-height:1px;	
+	}
+
+p.h1{
+	font-family:Sans-serif;
+	font-size:50px;
+	font-family:1000px;
+	line-height:2px;
+		}
+
+p.Text1{
+	/*普通文字样式*/
+	line-height:5px;
+	font-size:15px;
+	}
+p.Text2{
+	/*首行缩进*/
+	text-indent: 5px;
+	}
+p.Text3{
+	/*首行下沉*/
+	 color::#c69c6d;
+	 float::left;
+	 font-size:5em;
+	 margin:0.2em 0 0;
+	}
+
+
+a.UPMenu:link,a.UPMenu:visited{
+	margin:40px;
+	padding:0px;
+	font-size:25px;
+	text-align:center;
+	color:#000;
+	background-color:#fff;
+	}
+a.UPMenu:hover,a.UPMenu:active{
+	filter:invert(100%);
+	}
+
+a.icon:link,a.icon:visited{
+	margin:1em;
+	filter:invert(100%);
+	}
+a.icon:hover,a.icon:active{
+	filter:invert(10%);
+	}
+
+ul.UPMenu{
+	margin:0px;
+	background-color:#fff;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	}
+
+ul{
+			list-style-type:none;
+			padding:0;
+	}
+
+li{
+			display:inline;
+			position: relative;
+	}
+	
+ul.ButtonMenuBig {
+		list-style: none;
+		margin-left: 8%;
+		
+	}
+li.ButtonMenuBig {
+		display: inline;
+		line-height: 5%;
+		float:left;
+			}
+
+ul.ButtonImg{
+	list-style-type:none;
+	margin-bottom:11%;
+	padding:;
+	display:block;
+	width:100%;
+			}	
+	
+
+
+a.ButtonUP:link,a.ButtonUP:visited{
+			font-weight:bold;
+			font-size:160%;
+			color:rgba(0,0,0,0.8);
+			background-color:rgba(255,255,255,0.8);
+			text-align:center;
+			padding:2%;
+			text-decoration:none;
+			text-transform:uppercase;
+	}
+a.ButtonUP:hover,a.ButtonUP:active{
+		color:#FFFFFF;
+		background-color:rgba(0,0,0,0.5);
+	}
+	
+a.ButtonMenu:link,a.ButtonMenu:visited{
+			font-weight:bold;
+			font-size:120%;
+			color:#FFFFFF;
+			background-color:#000000;
+			padding:0.9%;
+			text-align:center;
+			text-decoration:none;
+			text-transform:uppercase;
+			
+	}
+a.ButtonMenu:hover,a.ButtonMenu:active{
+		color:#000000;
+		background-color:#FFFFFF;
+	}
+	
+
+a.ButtonMenuBig:link,a.ButtonMenuBig:visited{
+			padding:300px 60px 300px 60px ;
+			background-color:rgba(0,0,0,0.8);
+			text-align:center;
+			color: #B0B0B0;
+			text-decoration:none;
+			font-weight:bold;
+			font-size:40px;
+			text-transform:uppercase;
+			word-wrap: break-word;
+			border:5px solid rgba(255,255,255,0);
+	}
+a.ButtonMenuBig:hover,a.ButtonMenuBigt:active{
+			color:#FFFFFF;	
+			border:5px solid #C0C0C0;
+	}	
+	
+	
+		
+img.small {
+		height: 20%;
+	}
+
+img.icon {
+		height: 5%;
+	}
+	
+
+img.ButtonSmall{
+		height:90px;
+	}					
+ 
+ 
+ 
+#ButtonMenubg {
+			background-color:rgba(0,0,0,1);
+			text-align:left;
+			padding:0.1%;
+			margin:0 0 0 0px;
+		}			
+
+#bgblack {
+			
+			background-color:rgba(0,0,0,0.5);
+			background-size: 200%;
+			text-align:center;
+			position:fixed;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+		}			
+
+#bgblack-indx-true {
+			
+			background-color:rgba(0,0,0,0.5);
+			background-size: 200%;
+			padding:10% 20%;
+			position:fixed;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+		}	
+
+		
+.yiYan{	
+		font-family:微软雅黑,Impact, Charcoal, sans-serif;
+		font-weight:normal;	color:rgb(255,255,255);
+		text-align : center;
+		margin:5% ;
+		text-wrap:normal;
+		margin:0 auto 7% auto
+	}
+
+.huYiTiaoHengXian{
+    width: 50%;
+    height: 1px;
+    border-top: solid rgba(255,255,255,0) 1px;
+	margin:1% auto 7% auto ;
+	}
+
+.ulMenu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+		}
+.liMenu{
+	display:inline;
+	color:blue;
+	height:200px;
+	padding:0px;
+		}	
+
+
