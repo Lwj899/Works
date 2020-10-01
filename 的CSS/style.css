@@ -4,8 +4,6 @@
 	/*引导页背景（API随机图片背景）*/
 	/*background-image:url(https://api.berryapi.net/?service=App.Bing.Images&day=-0);*/
 	background-image:url(https://api.berryapi.net/?service=App.Bing.Images&day=-0);
-	/*-moz-background-size:50% 100%; /* 老版本的 Firefox */
-	/*background-size:150% 22000%;*/
 	}
 
 #background-image-url{
